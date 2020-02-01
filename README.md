@@ -15,7 +15,7 @@ AWSのクラウドフォーメーションのスタック用に切り詰めて�
 ステージ名の末尾にハッシュをつけることで途中まで同じ名前のブランチも別のステージ名となるようにしています。
 
 ```
-$ curl https://raw.githubusercontent.com/yousan/stagename/master/aws.sh | bash
+$ curl -L -s https://raw.githubusercontent.com/yousan/stagename/master/aws.sh | bash
 
 06hiro-paymentcheckl-a44
 ```
